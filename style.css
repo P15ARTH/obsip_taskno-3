@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #0e314a;
+    overflow-x: hidden;
+}
+
+.container
+{
+    height: 100vh;
+}
+
+.navbar
+{
+     display: flex;
+     height: 50px;
+     width: 100%;
+     background-color: white;
+}
+
+.navbar h3
+{
+   margin: 12px 182px;
+   font-weight: 300;
+   font-size: 1.3rem;
+}
+
+.box
+{
+    display: block;
+    width: 20%;
+    height: 49%;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.box input,#des,.save
+{
+    display: block;
+    padding: 12px;
+    margin: 12px ;
+    width: 90%;
+}
+
+.save
+{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.box-2
+{
+    position: relative;
+    top: -370px;
+    left: 630px;
+}
+
+.box-2 .fixed
+{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.fixed li
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+hr
+{
+    width: 55%;
+    margin-top: 28px;
+    margin-bottom: 18px;
+    color: white;
+
+}
+
+.box-2 .save-data
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: scroll;
+}
+
+.save-data li
+{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 8px;
+}
+
+.fa-trash
+{
+    color: #ff0000;
+    font-size: 28px;
+    cursor: pointer;
+}
