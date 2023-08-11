@@ -1,3 +1,4 @@
+alert("Request you to open in desktop mode");
 let title = document.getElementById("title");
 let description = document.getElementById("des");
 let save = document.getElementsByClassName("save");
